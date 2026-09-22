@@ -1,11 +1,9 @@
+
 name: Test Installation
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   build:
     runs-on: ubuntu-latest
